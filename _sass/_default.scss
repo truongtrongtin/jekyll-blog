@@ -11,7 +11,6 @@ a {
     text-decoration: none;
 
     &:hover {
-
     }
 }
 
@@ -86,8 +85,6 @@ strong {
 .menu {
     color: $cloudy;
     font-size: 18px;
-    margin:0px;
-    margin-top: 6px;
     padding: 0px;
     list-style-type: none;
 }
@@ -129,22 +126,12 @@ strong {
     font-size: 70px;
 }
 
-.page-title__subtitle {
-    font-weight: 400;
-    font-size: 22px;
-    color: $cloudy;
-}
-
 .post-title {
     margin-bottom: 110px;
 }
 
 .post-title__text {
     font-size: 40px;
-}
-
-.post-title__subtitle {
-    font-size: 20px;
 }
 
 /* =Post teasers */
@@ -275,10 +262,6 @@ strong {
         font-size: 40px;
     }
 
-    .page-title__subtitle {
-        font-size: 18px;
-    }
-
     .post-teaser__title {
         font-size: 18px;
         @include centered-block();
@@ -297,9 +280,5 @@ strong {
 
     .post-title__text {
         font-size: 28px;
-    }
-
-    .post-title__subtitle {
-        font-size: 18px;
     }
 }
